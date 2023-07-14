@@ -43,9 +43,18 @@ const App = () => (
                 from last month.
               </p>
               <div>
-                <a href="https://supplier.meesho.com/" target="_blank">
-                  View Graph
-                </a>
+                <p>View Graph</p>
+                <img
+                  alt="old_image"
+                  src="https://supplier-prod-temp-files.s3.ap-southeast-1.amazonaws.com/products-upload/cataloging/1689325979127/Screenshot2023-07-14at2.39.54PM.png"
+                  style={{
+                    width: "100%",
+                    height: "200px",
+                    borderRadius: "8px",
+                    border: "1px solid gray",
+                  }}
+                />
+
               </div>
             </div>
           ),
@@ -280,7 +289,7 @@ const App = () => (
                 <span>Current Image: </span>
                 <img
                   alt="old_image"
-                  src="https://m.media-amazon.com/images/I/81hLR-xXuGL._UY879_.jpg"
+                  src="https://supplier-prod-temp-files.s3.ap-southeast-1.amazonaws.com/products-upload/cataloging/1689325949230/kurti.jpeg"
                   style={{
                     width: "200px",
                     height: "200px",
@@ -299,7 +308,7 @@ const App = () => (
                 <span>New Image: </span>
                 <img
                   alt="new_image"
-                  src="https://m.media-amazon.com/images/I/71kIwVqod0L._UY879_.jpg"
+                  src="https://supplier-prod-temp-files.s3.ap-southeast-1.amazonaws.com/products-upload/cataloging/1689325949234/kurti-removebg-preview1.png"
                   style={{
                     width: "200px",
                     height: "200px",
