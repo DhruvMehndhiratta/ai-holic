@@ -4,8 +4,6 @@ import { render } from "react-dom";
 import ChatBot from "react-simple-chatbot";
 
 const App = () => {
-
-  
   return(
   <div
     style={{
@@ -33,7 +31,7 @@ const App = () => {
             {
               value: 3,
               label:
-                "How are users linking my new products uploaded this month",
+                "How are users liking my new products uploaded this month",
               trigger: "8",
             },
           ],
