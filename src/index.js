@@ -41,7 +41,7 @@ const App = () => {
           component: (
             <div>
               <p>
-                Your sales for the month are Rs. 80,71,909. They are down by 10%
+                Your sales for the month are Rs. 80,71,909. They are up by 10%
                 from last month.
               </p>
               <div>
