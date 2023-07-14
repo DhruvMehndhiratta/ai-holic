@@ -1,20 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { render } from "react-dom";
 
 import ChatBot from "react-simple-chatbot";
 
 const App = () => {
-  const [images, setImages] = useState({
-    oldImage: '',
-    newImage: ""
-  })
-  useEffect(() => {
 
-  })
-
-  // const handleTrigger = () => {
-
-  // }
+  
   return(
   <div
     style={{
