@@ -1,9 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { render } from "react-dom";
 
 import ChatBot from "react-simple-chatbot";
 
-const App = () => (
+const App = () => {
+  const [images, setImages] = useState({
+    oldImage: '',
+    newImage: ""
+  })
+  useEffect(() => {
+
+  })
+
+  // const handleTrigger = () => {
+
+  // }
+  return(
   <div
     style={{
       display: "flex",
@@ -15,6 +27,7 @@ const App = () => (
       headerTitle="Hi I am Chatur, your KAM-AI. I am here to help you grow your business on Meesho"
       bubbleOptionStyle={{ backgroundColor: "white", color: "black" }}
       style={{ minWidth: "550px", margin: "0 auto" }}
+      // triggerNextStep={handleTrigger}
       steps={[
         {
           id: "1",
@@ -171,6 +184,7 @@ const App = () => (
               value: "Improve Product Images",
               label: "Improve Product Images",
               trigger: "Improve Product Images",
+              userDelay: 6000,
             },
           ],
         },
@@ -338,6 +352,7 @@ const App = () => (
       ]}
     />
   </div>
-);
+  )
+};
 
 render(<App />, document.getElementById("root"));
